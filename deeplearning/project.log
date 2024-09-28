@@ -1,0 +1,586 @@
+2024-08-01 14:21:07,292 - main - INFO - Received request for shop_id: 101, item_id: 107172
+2024-08-01 14:21:07,328 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 14:21:07,330 - main - INFO - Initialized TestPredictor
+2024-08-01 14:21:08,244 - google_drive_uploader.uploader - INFO - Found file: last.csv (ID: 1kq7LOZI3zls15ZmKvTW4tigFN418iwUd)
+2024-08-01 14:21:24,446 - google_drive_uploader.uploader - INFO - Download 13%.
+2024-08-01 14:21:37,523 - google_drive_uploader.uploader - INFO - Download 26%.
+2024-08-01 14:21:49,994 - google_drive_uploader.uploader - INFO - Download 40%.
+2024-08-01 14:22:03,419 - google_drive_uploader.uploader - INFO - Download 53%.
+2024-08-01 14:22:17,025 - google_drive_uploader.uploader - INFO - Download 67%.
+2024-08-01 14:22:30,972 - google_drive_uploader.uploader - INFO - Download 80%.
+2024-08-01 14:22:43,301 - google_drive_uploader.uploader - INFO - Download 94%.
+2024-08-01 14:22:50,511 - google_drive_uploader.uploader - INFO - Download 100%.
+2024-08-01 14:22:50,511 - google_drive_uploader.uploader - INFO - File downloaded successfully to folder ID 1kq7LOZI3zls15ZmKvTW4tigFN418iwUd.
+2024-08-01 14:23:02,300 - google_drive_uploader.uploader - INFO - Download 100%.
+2024-08-01 14:23:02,300 - google_drive_uploader.uploader - INFO - File downloaded successfully to folder ID 1qvy1igxaewCdQb_9D_cB3HCHhfe2V38U.
+2024-08-01 14:23:02,364 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 14:23:03,257 - google_drive_uploader.uploader - INFO - Found file: trained_model.pkl (ID: 1dJ-Qp7ba1H22n9dpSY_ABkezrI5Bxzwa)
+2024-08-01 14:23:08,870 - google_drive_uploader.uploader - INFO - Download 100%.
+2024-08-01 14:23:08,870 - google_drive_uploader.uploader - INFO - File downloaded successfully to folder ID 1dJ-Qp7ba1H22n9dpSY_ABkezrI5Bxzwa.
+2024-08-01 14:23:09,312 - google_drive_uploader.uploader - INFO - Found file: scaler.pkl (ID: 10k5pqy7hcv10d1dCFM-yp7nd2ilnccJB)
+2024-08-01 14:23:13,790 - google_drive_uploader.uploader - INFO - Download 100%.
+2024-08-01 14:23:13,790 - google_drive_uploader.uploader - INFO - File downloaded successfully to folder ID 10k5pqy7hcv10d1dCFM-yp7nd2ilnccJB.
+2024-08-01 14:23:14,302 - google_drive_uploader.uploader - INFO - Found file: pca.pkl (ID: 1W4PcFjjps3Pmr-bItrrEuhi61dGlzdWg)
+2024-08-01 14:23:19,021 - google_drive_uploader.uploader - INFO - Download 100%.
+2024-08-01 14:23:19,021 - google_drive_uploader.uploader - INFO - File downloaded successfully to folder ID 1W4PcFjjps3Pmr-bItrrEuhi61dGlzdWg.
+2024-08-01 14:23:19,295 - prediction.setup.predict - INFO - Model, scaler, and PCA successfully loaded.
+2024-08-01 14:23:19,295 - main - INFO - TestPredictor run completed
+2024-08-01 14:23:19,304 - prediction.setup.test_predictor - INFO - shop_id: 101, item_id: 107172, Predicted amount: [0.30184507]
+2024-08-01 14:23:19,304 - main - INFO - Prediction made: 0.3018450684091367
+2024-08-01 14:44:27,880 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 14:44:27,882 - root.prediction_services.services - INFO - Initialized PredictorService
+2024-08-01 14:44:34,260 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 14:44:34,261 - root.prediction_services.services - INFO - Initialized PredictorService
+2024-08-01 14:45:57,590 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 14:45:57,591 - root.prediction_services.services - INFO - Initialized PredictorService
+2024-08-01 14:46:00,607 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 14:46:00,608 - root.prediction_services.services - INFO - Initialized PredictorService
+2024-08-01 14:47:02,769 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 14:47:02,771 - root.prediction_services.services - INFO - Initialized PredictorService
+2024-08-01 14:52:54,266 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 14:52:54,267 - root.prediction_services.services - INFO - Initialized PredictorService
+2024-08-01 14:54:04,682 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 14:54:04,683 - root.train_service.services - INFO - Training started
+2024-08-01 14:54:05,527 - google_drive_uploader.uploader - INFO - Found file: last.csv (ID: 1kq7LOZI3zls15ZmKvTW4tigFN418iwUd)
+2024-08-01 14:54:16,390 - google_drive_uploader.uploader - INFO - Download 13%.
+2024-08-01 14:54:27,176 - google_drive_uploader.uploader - INFO - Download 26%.
+2024-08-01 14:54:37,952 - google_drive_uploader.uploader - INFO - Download 40%.
+2024-08-01 14:54:49,777 - google_drive_uploader.uploader - INFO - Download 53%.
+2024-08-01 14:55:02,581 - google_drive_uploader.uploader - INFO - Download 67%.
+2024-08-01 14:55:17,564 - google_drive_uploader.uploader - INFO - Download 80%.
+2024-08-01 14:55:31,142 - google_drive_uploader.uploader - INFO - Download 94%.
+2024-08-01 14:55:42,202 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 14:55:42,203 - root.prediction_services.services - INFO - Initialized PredictorService
+2024-08-01 14:55:54,307 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 14:55:54,308 - root.train_service.services - INFO - Training started
+2024-08-01 14:55:55,146 - google_drive_uploader.uploader - INFO - Found file: last.csv (ID: 1kq7LOZI3zls15ZmKvTW4tigFN418iwUd)
+2024-08-01 14:56:06,704 - google_drive_uploader.uploader - INFO - Download 13%.
+2024-08-01 14:56:18,343 - google_drive_uploader.uploader - INFO - Download 26%.
+2024-08-01 14:56:29,271 - google_drive_uploader.uploader - INFO - Download 40%.
+2024-08-01 14:56:41,200 - google_drive_uploader.uploader - INFO - Download 53%.
+2024-08-01 14:56:52,433 - google_drive_uploader.uploader - INFO - Download 67%.
+2024-08-01 14:57:02,675 - google_drive_uploader.uploader - INFO - Download 80%.
+2024-08-01 14:57:12,390 - google_drive_uploader.uploader - INFO - Download 94%.
+2024-08-01 14:57:19,773 - google_drive_uploader.uploader - INFO - Download 100%.
+2024-08-01 14:57:19,774 - google_drive_uploader.uploader - INFO - File downloaded successfully to folder ID 1kq7LOZI3zls15ZmKvTW4tigFN418iwUd.
+2024-08-01 14:57:47,386 - deep_learning.dlmodel.dlmodel - INFO - Epoch 1, Loss: 0.1299774746801626, RMSE: 0.3605238891948252
+2024-08-01 14:57:53,027 - deep_learning.dlmodel.dlmodel - INFO - Epoch 2, Loss: 0.0042484644530563585, RMSE: 0.0651802458806068
+2024-08-01 14:57:58,572 - deep_learning.dlmodel.dlmodel - INFO - Epoch 3, Loss: 0.004270721287184246, RMSE: 0.06535075582718416
+2024-08-01 14:58:04,407 - deep_learning.dlmodel.dlmodel - INFO - Epoch 4, Loss: 0.004248743965334463, RMSE: 0.06518238999403492
+2024-08-01 15:23:34,673 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 15:23:34,675 - root.train_service.services - INFO - Training started
+2024-08-01 15:23:35,554 - cloud_storage.uploader - INFO - Found file: last.csv (ID: 1J7cJOJDAwMHs_V5bn-RtphImxyjQkysm)
+2024-08-01 15:23:56,290 - cloud_storage.uploader - INFO - Download 13%.
+2024-08-01 15:24:13,023 - cloud_storage.uploader - INFO - Download 26%.
+2024-08-01 15:24:33,059 - cloud_storage.uploader - INFO - Download 40%.
+2024-08-01 15:24:49,970 - cloud_storage.uploader - INFO - Download 53%.
+2024-08-01 15:25:06,262 - cloud_storage.uploader - INFO - Download 67%.
+2024-08-01 15:25:22,201 - cloud_storage.uploader - INFO - Download 80%.
+2024-08-01 15:25:41,010 - cloud_storage.uploader - INFO - Download 94%.
+2024-08-01 15:25:52,188 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 15:25:52,188 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1J7cJOJDAwMHs_V5bn-RtphImxyjQkysm.
+2024-08-01 15:26:19,848 - neural_networks.dlmodel.dlmodel - INFO - Epoch 1, Loss: 0.12065536748519587, RMSE: 0.34735481497338694
+2024-08-01 15:26:25,332 - neural_networks.dlmodel.dlmodel - INFO - Epoch 2, Loss: 0.004634939182889281, RMSE: 0.0680803876523135
+2024-08-01 15:26:30,782 - neural_networks.dlmodel.dlmodel - INFO - Epoch 3, Loss: 0.004295911028508868, RMSE: 0.06554319971216593
+2024-08-01 15:26:36,407 - neural_networks.dlmodel.dlmodel - INFO - Epoch 4, Loss: 0.004294129305098793, RMSE: 0.06552960632491846
+2024-08-01 15:26:42,090 - neural_networks.dlmodel.dlmodel - INFO - Epoch 5, Loss: 0.004273012677790543, RMSE: 0.06536828495371852
+2024-08-01 15:26:47,865 - neural_networks.dlmodel.dlmodel - INFO - Epoch 6, Loss: 0.004254560727566199, RMSE: 0.06522699385657904
+2024-08-01 15:26:53,488 - neural_networks.dlmodel.dlmodel - INFO - Epoch 7, Loss: 0.004342947979976649, RMSE: 0.06590104688073362
+2024-08-01 15:26:59,101 - neural_networks.dlmodel.dlmodel - INFO - Epoch 8, Loss: 0.004210307012397098, RMSE: 0.06488687858417215
+2024-08-01 15:27:04,852 - neural_networks.dlmodel.dlmodel - INFO - Epoch 9, Loss: 0.004257629335312601, RMSE: 0.06525051214597936
+2024-08-01 15:27:10,345 - neural_networks.dlmodel.dlmodel - INFO - Epoch 10, Loss: 0.004317529127568708, RMSE: 0.0657079076486895
+2024-08-01 15:27:13,820 - model_training_pipeline.data.trainer - INFO - Train RMSE: 0.06912840845353306
+2024-08-01 15:27:14,672 - model_training_pipeline.data.trainer - INFO - Test RMSE: 0.0619773572345048
+2024-08-01 15:27:14,679 - model_training_pipeline.setup.train_pipeline - INFO - Uploading model, scaler, and PCA to Google Drive folder 1uAi36tu9xE7wg4Nyf1opYSh6o405Y5a9...
+2024-08-01 15:27:19,719 - cloud_storage.uploader - INFO - File trained_model.pkl uploaded successfully to folder ID 1uAi36tu9xE7wg4Nyf1opYSh6o405Y5a9.
+2024-08-01 15:27:21,576 - cloud_storage.uploader - INFO - File scaler.pkl uploaded successfully to folder ID 1uAi36tu9xE7wg4Nyf1opYSh6o405Y5a9.
+2024-08-01 15:27:23,607 - cloud_storage.uploader - INFO - File pca.pkl uploaded successfully to folder ID 1uAi36tu9xE7wg4Nyf1opYSh6o405Y5a9.
+2024-08-01 15:27:23,608 - model_training_pipeline.setup.train_pipeline - INFO - Model, scaler, and PCA successfully uploaded to Google Drive.
+2024-08-01 15:27:23,608 - root.train_service.services - INFO - Training completed
+2024-08-01 15:27:48,884 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 15:27:48,886 - root.prediction_services.services - INFO - Initialized PredictorService
+2024-08-01 15:27:49,938 - cloud_storage.uploader - INFO - Found file: last.csv (ID: 1J7cJOJDAwMHs_V5bn-RtphImxyjQkysm)
+2024-08-01 15:28:13,774 - cloud_storage.uploader - INFO - Download 13%.
+2024-08-01 15:28:30,838 - cloud_storage.uploader - INFO - Download 26%.
+2024-08-01 15:28:49,742 - cloud_storage.uploader - INFO - Download 40%.
+2024-08-01 15:29:12,324 - cloud_storage.uploader - INFO - Download 53%.
+2024-08-01 15:29:34,063 - cloud_storage.uploader - INFO - Download 67%.
+2024-08-01 15:29:56,032 - cloud_storage.uploader - INFO - Download 80%.
+2024-08-01 15:30:12,715 - cloud_storage.uploader - INFO - Download 94%.
+2024-08-01 15:30:22,761 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 15:30:22,761 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1J7cJOJDAwMHs_V5bn-RtphImxyjQkysm.
+2024-08-01 15:30:34,288 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 15:30:34,288 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1qvy1igxaewCdQb_9D_cB3HCHhfe2V38U.
+2024-08-01 15:30:34,376 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 15:30:45,640 - cloud_storage.uploader - INFO - Found file: trained_model.pkl (ID: 1OxyNtNQqcjOvA8srQwRoa5983Q2eLAcx)
+2024-08-01 15:30:56,049 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 15:30:56,049 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1OxyNtNQqcjOvA8srQwRoa5983Q2eLAcx.
+2024-08-01 15:30:56,543 - cloud_storage.uploader - INFO - Found file: scaler.pkl (ID: 1l__K5DisVTTEdOVqW_Qv5Y9VgIa2WIUU)
+2024-08-01 15:31:01,006 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 15:31:01,006 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1l__K5DisVTTEdOVqW_Qv5Y9VgIa2WIUU.
+2024-08-01 15:31:01,523 - cloud_storage.uploader - INFO - Found file: pca.pkl (ID: 1fOglcIKgKfmU105uAWxFrBxK2EEwzKXj)
+2024-08-01 15:31:05,940 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 15:31:05,940 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1fOglcIKgKfmU105uAWxFrBxK2EEwzKXj.
+2024-08-01 15:31:05,949 - model_predictions.setup.predict - INFO - Model, scaler, and PCA successfully loaded.
+2024-08-01 15:31:05,949 - root.prediction_services.services - INFO - PredictorService run completed
+2024-08-01 15:31:05,961 - model_predictions.setup.test_predictor - INFO - shop_id: 101, item_id: 107172, Predicted amount: [0.21386196]
+2024-08-01 15:31:05,962 - root.prediction_services.services - INFO - Prediction made: 0.2138619553649912
+2024-08-01 15:52:26,924 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 15:52:26,926 - root.data_services.services - INFO - Preparing data...
+2024-08-01 15:52:47,009 - cloud_storage.uploader - INFO - Download 88%.
+2024-08-01 15:52:52,068 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 15:52:52,068 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1qAekESV0eDNcQ0aEMJF95i-W0ysfLXSS.
+2024-08-01 15:52:56,655 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 15:52:56,655 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1AUQC88xAb1rkc2zb151tEWf-k57lypMD.
+2024-08-01 15:53:00,399 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 15:53:00,399 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1Sj90Oqc7KQesWTzZuo08Ku8AlCagshF1.
+2024-08-01 15:53:05,298 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 15:53:05,298 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1GXj9YQZAHx-zdQSEz_L0tyOfTLdTuVOJ.
+2024-08-01 15:53:06,937 - root.data_services.services - INFO - Data prepared.
+2024-08-01 15:53:06,937 - root.data_services.services - INFO - Engineering features...
+2024-08-01 15:53:10,475 - root.data_services.services - INFO - Features engineered.
+2024-08-01 15:53:10,475 - root.data_services.services - INFO - Saving and uploading data to Google Drive...
+2024-08-01 15:53:50,831 - googleapiclient.http - WARNING - Encountered 403 Forbidden with reason "storageQuotaExceeded"
+2024-08-01 15:56:39,730 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 15:56:39,732 - root.data_services.services - INFO - Preparing data...
+2024-08-01 15:56:40,750 - googleapiclient.http - WARNING - Encountered 403 Forbidden with reason "accessNotConfigured"
+2024-08-01 16:03:57,096 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 16:03:57,098 - root.data_services.services - INFO - Preparing data...
+2024-08-01 16:04:12,168 - cloud_storage.uploader - INFO - Download 88%.
+2024-08-01 16:04:17,371 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 16:04:17,371 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1qAekESV0eDNcQ0aEMJF95i-W0ysfLXSS.
+2024-08-01 16:04:22,024 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 16:04:22,025 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1AUQC88xAb1rkc2zb151tEWf-k57lypMD.
+2024-08-01 16:04:26,111 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 16:04:26,111 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1Sj90Oqc7KQesWTzZuo08Ku8AlCagshF1.
+2024-08-01 16:04:30,887 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 16:04:30,887 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1GXj9YQZAHx-zdQSEz_L0tyOfTLdTuVOJ.
+2024-08-01 16:04:32,507 - root.data_services.services - INFO - Data prepared.
+2024-08-01 16:04:32,508 - root.data_services.services - INFO - Engineering features...
+2024-08-01 16:04:36,029 - root.data_services.services - INFO - Features engineered.
+2024-08-01 16:04:36,029 - root.data_services.services - INFO - Saving and uploading data to Google Drive...
+2024-08-01 16:05:24,783 - cloud_storage.uploader - INFO - Upload 13% complete.
+2024-08-01 16:05:32,755 - cloud_storage.uploader - INFO - Upload 26% complete.
+2024-08-01 16:05:40,145 - cloud_storage.uploader - INFO - Upload 40% complete.
+2024-08-01 16:05:47,885 - cloud_storage.uploader - INFO - Upload 53% complete.
+2024-08-01 16:05:55,820 - cloud_storage.uploader - INFO - Upload 67% complete.
+2024-08-01 16:06:05,751 - cloud_storage.uploader - INFO - Upload 80% complete.
+2024-08-01 16:06:15,091 - cloud_storage.uploader - INFO - Upload 94% complete.
+2024-08-01 16:06:20,102 - cloud_storage.uploader - INFO - File last.csv uploaded successfully to folder ID 1sazosSHf7leJqmLdb3Urla5Fb2bhFH5l.
+2024-08-01 16:06:20,180 - root.data_services.services - INFO - Data saved and uploaded.
+2024-08-01 16:07:12,054 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 16:07:12,058 - root.train_service.services - INFO - Training started
+2024-08-01 16:07:13,138 - cloud_storage.uploader - INFO - Found file: last.csv (ID: 1hAu_jN8mU7XxQU9NO8Uuvh4kJnc-ryOe)
+2024-08-01 16:07:29,738 - cloud_storage.uploader - INFO - Download 13%.
+2024-08-01 16:07:43,930 - cloud_storage.uploader - INFO - Download 26%.
+2024-08-01 16:08:01,536 - cloud_storage.uploader - INFO - Download 40%.
+2024-08-01 16:08:18,146 - cloud_storage.uploader - INFO - Download 53%.
+2024-08-01 16:08:39,120 - cloud_storage.uploader - INFO - Download 67%.
+2024-08-01 16:08:56,978 - cloud_storage.uploader - INFO - Download 80%.
+2024-08-01 16:09:14,775 - cloud_storage.uploader - INFO - Download 94%.
+2024-08-01 16:09:23,047 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 16:09:23,048 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1hAu_jN8mU7XxQU9NO8Uuvh4kJnc-ryOe.
+2024-08-01 16:09:49,174 - neural_networks.dlmodel.dlmodel - INFO - Epoch 1, Loss: 0.11561663618340715, RMSE: 0.3400244640954635
+2024-08-01 16:09:54,548 - neural_networks.dlmodel.dlmodel - INFO - Epoch 2, Loss: 0.0045265105681003654, RMSE: 0.06727934726274004
+2024-08-01 16:09:59,730 - neural_networks.dlmodel.dlmodel - INFO - Epoch 3, Loss: 0.004308796726040473, RMSE: 0.06564142538093207
+2024-08-01 16:10:04,836 - neural_networks.dlmodel.dlmodel - INFO - Epoch 4, Loss: 0.004155693095588326, RMSE: 0.06446466548108604
+2024-08-01 16:10:10,071 - neural_networks.dlmodel.dlmodel - INFO - Epoch 5, Loss: 0.00416154942749344, RMSE: 0.06451007229490166
+2024-08-01 16:10:15,197 - neural_networks.dlmodel.dlmodel - INFO - Epoch 6, Loss: 0.004154218481305446, RMSE: 0.06445322708216747
+2024-08-01 16:10:20,368 - neural_networks.dlmodel.dlmodel - INFO - Epoch 7, Loss: 0.004157061656781894, RMSE: 0.06447527942383727
+2024-08-01 16:10:25,610 - neural_networks.dlmodel.dlmodel - INFO - Epoch 8, Loss: 0.004117181699398366, RMSE: 0.06416526863809086
+2024-08-01 16:10:30,869 - neural_networks.dlmodel.dlmodel - INFO - Epoch 9, Loss: 0.004082526534696846, RMSE: 0.06389465184737175
+2024-08-01 16:10:36,248 - neural_networks.dlmodel.dlmodel - INFO - Epoch 10, Loss: 0.0040869090279909955, RMSE: 0.06392893732881062
+2024-08-01 16:10:39,577 - model_training_pipeline.data.trainer - INFO - Train RMSE: 0.062822204614095
+2024-08-01 16:10:40,405 - model_training_pipeline.data.trainer - INFO - Test RMSE: 0.053239910674102366
+2024-08-01 16:10:40,411 - model_training_pipeline.setup.train_pipeline - INFO - Uploading model, scaler, and PCA to Google Drive folder 1uAi36tu9xE7wg4Nyf1opYSh6o405Y5a9...
+2024-08-01 16:10:44,894 - cloud_storage.uploader - INFO - File trained_model.pkl uploaded successfully to folder ID 1uAi36tu9xE7wg4Nyf1opYSh6o405Y5a9.
+2024-08-01 16:10:46,839 - cloud_storage.uploader - INFO - File scaler.pkl uploaded successfully to folder ID 1uAi36tu9xE7wg4Nyf1opYSh6o405Y5a9.
+2024-08-01 16:10:48,690 - cloud_storage.uploader - INFO - File pca.pkl uploaded successfully to folder ID 1uAi36tu9xE7wg4Nyf1opYSh6o405Y5a9.
+2024-08-01 16:10:48,690 - model_training_pipeline.setup.train_pipeline - INFO - Model, scaler, and PCA successfully uploaded to Google Drive.
+2024-08-01 16:10:48,690 - root.train_service.services - INFO - Training completed
+2024-08-01 16:11:10,356 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 16:11:10,358 - root.prediction_services.services - INFO - Initialized PredictorService
+2024-08-01 16:11:11,626 - cloud_storage.uploader - INFO - Found file: last.csv (ID: 1hAu_jN8mU7XxQU9NO8Uuvh4kJnc-ryOe)
+2024-08-01 16:11:44,505 - cloud_storage.uploader - INFO - Download 13%.
+2024-08-01 16:12:04,947 - cloud_storage.uploader - INFO - Download 26%.
+2024-08-01 16:12:19,917 - cloud_storage.uploader - INFO - Download 40%.
+2024-08-01 16:12:37,569 - cloud_storage.uploader - INFO - Download 53%.
+2024-08-01 16:12:55,547 - cloud_storage.uploader - INFO - Download 67%.
+2024-08-01 16:13:10,066 - cloud_storage.uploader - INFO - Download 80%.
+2024-08-01 16:13:27,775 - cloud_storage.uploader - INFO - Download 94%.
+2024-08-01 16:13:39,941 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 16:13:39,941 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1hAu_jN8mU7XxQU9NO8Uuvh4kJnc-ryOe.
+2024-08-01 16:13:50,351 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 16:13:50,351 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1qvy1igxaewCdQb_9D_cB3HCHhfe2V38U.
+2024-08-01 16:13:50,414 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 16:13:51,371 - cloud_storage.uploader - INFO - Found file: trained_model.pkl (ID: 12dB9jvvz8eOarq5Cmwk08egY2wze0lX9)
+2024-08-01 16:14:00,614 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 16:14:00,614 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 12dB9jvvz8eOarq5Cmwk08egY2wze0lX9.
+2024-08-01 16:14:01,038 - cloud_storage.uploader - INFO - Found file: scaler.pkl (ID: 1xtDC2dExYRBd3L4YxKabL0Uc0kRUMkd-)
+2024-08-01 16:14:04,957 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 16:14:04,957 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1xtDC2dExYRBd3L4YxKabL0Uc0kRUMkd-.
+2024-08-01 16:14:05,500 - cloud_storage.uploader - INFO - Found file: pca.pkl (ID: 1Clbl-ZkhAGevw3vpXJhkqBtS61Ou_FUx)
+2024-08-01 16:14:09,697 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 16:14:09,697 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1Clbl-ZkhAGevw3vpXJhkqBtS61Ou_FUx.
+2024-08-01 16:14:09,701 - model_predictions.setup.predict - INFO - Model, scaler, and PCA successfully loaded.
+2024-08-01 16:14:09,701 - root.prediction_services.services - INFO - PredictorService run completed
+2024-08-01 16:14:09,709 - model_predictions.setup.test_predictor - INFO - shop_id: 101, item_id: 107172, Predicted amount: [0.16657187]
+2024-08-01 16:14:09,709 - root.prediction_services.services - INFO - Prediction made: 0.16657186800456558
+2024-08-01 17:07:14,213 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 17:07:14,230 - services.data_services.services - INFO - Preparing data...
+2024-08-01 17:07:28,916 - cloud_storage.uploader - INFO - Download 88%.
+2024-08-01 17:07:34,307 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 17:07:34,308 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1qAekESV0eDNcQ0aEMJF95i-W0ysfLXSS.
+2024-08-01 17:07:44,529 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 17:07:44,529 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1AUQC88xAb1rkc2zb151tEWf-k57lypMD.
+2024-08-01 17:08:27,808 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 17:08:27,811 - services.data_services.services - INFO - Preparing data...
+2024-08-01 17:08:40,636 - cloud_storage.uploader - INFO - Download 88%.
+2024-08-01 17:08:45,526 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 17:08:45,526 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1qAekESV0eDNcQ0aEMJF95i-W0ysfLXSS.
+2024-08-01 17:08:49,992 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 17:08:49,992 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1AUQC88xAb1rkc2zb151tEWf-k57lypMD.
+2024-08-01 17:09:11,738 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 17:09:11,738 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1Sj90Oqc7KQesWTzZuo08Ku8AlCagshF1.
+2024-08-01 17:09:16,530 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 17:09:16,531 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1GXj9YQZAHx-zdQSEz_L0tyOfTLdTuVOJ.
+2024-08-01 17:09:18,253 - services.data_services.services - INFO - Data prepared.
+2024-08-01 17:09:18,253 - services.data_services.services - INFO - Engineering features...
+2024-08-01 17:09:21,948 - services.data_services.services - INFO - Features engineered.
+2024-08-01 17:09:21,948 - services.data_services.services - INFO - Saving and uploading data to Google Drive...
+2024-08-01 17:10:18,734 - cloud_storage.uploader - INFO - Upload 13% complete.
+2024-08-01 17:10:25,398 - cloud_storage.uploader - INFO - Upload 26% complete.
+2024-08-01 17:10:32,682 - cloud_storage.uploader - INFO - Upload 40% complete.
+2024-08-01 17:10:40,709 - cloud_storage.uploader - INFO - Upload 53% complete.
+2024-08-01 17:10:48,706 - cloud_storage.uploader - INFO - Upload 67% complete.
+2024-08-01 17:10:58,433 - cloud_storage.uploader - INFO - Upload 80% complete.
+2024-08-01 17:11:06,552 - cloud_storage.uploader - INFO - Upload 94% complete.
+2024-08-01 17:11:16,462 - cloud_storage.uploader - INFO - File last.csv uploaded successfully to folder ID 1sazosSHf7leJqmLdb3Urla5Fb2bhFH5l.
+2024-08-01 17:11:16,535 - services.data_services.services - INFO - Data saved and uploaded.
+2024-08-01 17:31:25,785 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 17:31:25,788 - services.train_service.services - INFO - Training started
+2024-08-01 17:31:26,817 - cloud_storage.uploader - INFO - Found file: last.csv (ID: 1tm2gQ11ci1F3Yo0_l2RyYaQPkNVY0q99)
+2024-08-01 17:31:41,194 - cloud_storage.uploader - INFO - Download 13%.
+2024-08-01 17:31:57,554 - cloud_storage.uploader - INFO - Download 26%.
+2024-08-01 17:32:13,710 - cloud_storage.uploader - INFO - Download 40%.
+2024-08-01 17:32:27,647 - cloud_storage.uploader - INFO - Download 53%.
+2024-08-01 17:32:44,656 - cloud_storage.uploader - INFO - Download 67%.
+2024-08-01 17:32:59,362 - cloud_storage.uploader - INFO - Download 80%.
+2024-08-01 17:33:15,777 - cloud_storage.uploader - INFO - Download 94%.
+2024-08-01 17:33:23,890 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 17:33:23,891 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1tm2gQ11ci1F3Yo0_l2RyYaQPkNVY0q99.
+2024-08-01 17:33:52,379 - neural_networks.dlmodel.dlmodel - INFO - Epoch 1, Loss: 0.22172954774539763, RMSE: 0.4708816706407223
+2024-08-01 17:33:58,223 - neural_networks.dlmodel.dlmodel - INFO - Epoch 2, Loss: 0.004090767318994419, RMSE: 0.06395910661504285
+2024-08-01 17:34:04,203 - neural_networks.dlmodel.dlmodel - INFO - Epoch 3, Loss: 0.004025222543406008, RMSE: 0.06344464156574618
+2024-08-01 17:34:10,141 - neural_networks.dlmodel.dlmodel - INFO - Epoch 4, Loss: 0.004030182815565992, RMSE: 0.06348372087051918
+2024-08-01 17:34:16,012 - neural_networks.dlmodel.dlmodel - INFO - Epoch 5, Loss: 0.004120262194766585, RMSE: 0.06418926853272738
+2024-08-01 17:34:22,095 - neural_networks.dlmodel.dlmodel - INFO - Epoch 6, Loss: 0.004118266049672049, RMSE: 0.06417371774856159
+2024-08-01 17:34:28,160 - neural_networks.dlmodel.dlmodel - INFO - Epoch 7, Loss: 0.004033481292570936, RMSE: 0.06350969447707126
+2024-08-01 17:34:34,288 - neural_networks.dlmodel.dlmodel - INFO - Epoch 8, Loss: 0.004091402477176533, RMSE: 0.06396407176827107
+2024-08-01 17:34:40,019 - neural_networks.dlmodel.dlmodel - INFO - Epoch 9, Loss: 0.0040324324309214165, RMSE: 0.06350143644770107
+2024-08-01 17:34:46,002 - neural_networks.dlmodel.dlmodel - INFO - Epoch 10, Loss: 0.004070932665289268, RMSE: 0.06380386089641651
+2024-08-01 17:34:52,030 - neural_networks.dlmodel.dlmodel - INFO - Epoch 11, Loss: 0.003999097571237815, RMSE: 0.06323841847514701
+2024-08-01 17:34:58,090 - neural_networks.dlmodel.dlmodel - INFO - Epoch 12, Loss: 0.004042560672754914, RMSE: 0.06358113456643341
+2024-08-01 17:35:03,789 - neural_networks.dlmodel.dlmodel - INFO - Epoch 13, Loss: 0.004015417176389455, RMSE: 0.06336731946665769
+2024-08-01 17:35:09,762 - neural_networks.dlmodel.dlmodel - INFO - Epoch 14, Loss: 0.004067898520663426, RMSE: 0.06378007934036635
+2024-08-01 17:35:15,540 - neural_networks.dlmodel.dlmodel - INFO - Epoch 15, Loss: 0.0040109645229511, RMSE: 0.06333217604781238
+2024-08-01 17:35:21,480 - neural_networks.dlmodel.dlmodel - INFO - Epoch 16, Loss: 0.004034825650927024, RMSE: 0.06352027747835351
+2024-08-01 17:35:27,594 - neural_networks.dlmodel.dlmodel - INFO - Epoch 17, Loss: 0.004063227170558443, RMSE: 0.06374344805984725
+2024-08-01 17:35:33,674 - neural_networks.dlmodel.dlmodel - INFO - Epoch 18, Loss: 0.00404082799801404, RMSE: 0.06356750740759023
+2024-08-01 17:35:39,714 - neural_networks.dlmodel.dlmodel - INFO - Epoch 19, Loss: 0.00404541603057925, RMSE: 0.06360358504502124
+2024-08-01 17:35:45,715 - neural_networks.dlmodel.dlmodel - INFO - Epoch 20, Loss: 0.004043450792550813, RMSE: 0.06358813405463958
+2024-08-01 17:35:51,773 - neural_networks.dlmodel.dlmodel - INFO - Epoch 21, Loss: 0.004039602868405512, RMSE: 0.06355787023182505
+2024-08-01 17:35:58,987 - neural_networks.dlmodel.dlmodel - INFO - Epoch 22, Loss: 0.004023863063268754, RMSE: 0.06343392675271455
+2024-08-01 17:36:05,025 - neural_networks.dlmodel.dlmodel - INFO - Epoch 23, Loss: 0.004017502209082585, RMSE: 0.06338376928743339
+2024-08-01 17:36:11,025 - neural_networks.dlmodel.dlmodel - INFO - Epoch 24, Loss: 0.004051018226400757, RMSE: 0.06364760974617002
+2024-08-01 17:36:17,159 - neural_networks.dlmodel.dlmodel - INFO - Epoch 25, Loss: 0.004036241563187497, RMSE: 0.0635314218571212
+2024-08-01 17:36:23,131 - neural_networks.dlmodel.dlmodel - INFO - Epoch 26, Loss: 0.004072477250202565, RMSE: 0.06381596391344853
+2024-08-01 17:36:29,034 - neural_networks.dlmodel.dlmodel - INFO - Epoch 27, Loss: 0.0040204089501027235, RMSE: 0.06340669483660794
+2024-08-01 17:36:35,030 - neural_networks.dlmodel.dlmodel - INFO - Epoch 28, Loss: 0.00405951594765294, RMSE: 0.06371433078713877
+2024-08-01 17:36:40,949 - neural_networks.dlmodel.dlmodel - INFO - Epoch 29, Loss: 0.004043052787887619, RMSE: 0.0635850044262609
+2024-08-01 17:36:47,057 - neural_networks.dlmodel.dlmodel - INFO - Epoch 30, Loss: 0.004028066793476361, RMSE: 0.0634670528185795
+2024-08-01 17:36:53,171 - neural_networks.dlmodel.dlmodel - INFO - Epoch 31, Loss: 0.004022448451487002, RMSE: 0.06342277549498289
+2024-08-01 17:36:59,345 - neural_networks.dlmodel.dlmodel - INFO - Epoch 32, Loss: 0.004046279546894726, RMSE: 0.06361037295044517
+2024-08-01 17:37:05,420 - neural_networks.dlmodel.dlmodel - INFO - Epoch 33, Loss: 0.004039769345091333, RMSE: 0.06355917986484197
+2024-08-01 17:37:11,373 - neural_networks.dlmodel.dlmodel - INFO - Epoch 34, Loss: 0.004039583640208257, RMSE: 0.06355771896637148
+2024-08-01 17:37:17,504 - neural_networks.dlmodel.dlmodel - INFO - Epoch 35, Loss: 0.004021637163207068, RMSE: 0.06341637929752114
+2024-08-01 17:37:23,716 - neural_networks.dlmodel.dlmodel - INFO - Epoch 36, Loss: 0.004055211967341308, RMSE: 0.06368054622364124
+2024-08-01 17:37:29,681 - neural_networks.dlmodel.dlmodel - INFO - Epoch 37, Loss: 0.004025357159873091, RMSE: 0.06344570245393372
+2024-08-01 17:37:35,597 - neural_networks.dlmodel.dlmodel - INFO - Epoch 38, Loss: 0.004032086694148855, RMSE: 0.06349871411413664
+2024-08-01 17:37:41,749 - neural_networks.dlmodel.dlmodel - INFO - Epoch 39, Loss: 0.004028600833507078, RMSE: 0.06347125990168367
+2024-08-01 17:37:47,782 - neural_networks.dlmodel.dlmodel - INFO - Epoch 40, Loss: 0.004028538453364697, RMSE: 0.0634707684951482
+2024-08-01 17:37:53,753 - neural_networks.dlmodel.dlmodel - INFO - Epoch 41, Loss: 0.004049599557671912, RMSE: 0.06363646405695332
+2024-08-01 17:37:59,868 - neural_networks.dlmodel.dlmodel - INFO - Epoch 42, Loss: 0.004015307202458924, RMSE: 0.06336645171112963
+2024-08-01 17:38:05,970 - neural_networks.dlmodel.dlmodel - INFO - Epoch 43, Loss: 0.004004566623138354, RMSE: 0.06328164523097005
+2024-08-01 17:38:12,090 - neural_networks.dlmodel.dlmodel - INFO - Epoch 44, Loss: 0.004018982354619446, RMSE: 0.06339544427338172
+2024-08-01 17:38:17,999 - neural_networks.dlmodel.dlmodel - INFO - Epoch 45, Loss: 0.0040487396588330315, RMSE: 0.06362970736089418
+2024-08-01 17:38:25,155 - neural_networks.dlmodel.dlmodel - INFO - Epoch 46, Loss: 0.004012014339661187, RMSE: 0.06334046368366107
+2024-08-01 17:38:31,168 - neural_networks.dlmodel.dlmodel - INFO - Epoch 47, Loss: 0.004027955707460641, RMSE: 0.06346617766543564
+2024-08-01 17:38:37,247 - neural_networks.dlmodel.dlmodel - INFO - Epoch 48, Loss: 0.004026698184959263, RMSE: 0.06345626986326303
+2024-08-01 17:38:43,426 - neural_networks.dlmodel.dlmodel - INFO - Epoch 49, Loss: 0.003998177793404199, RMSE: 0.0632311457543211
+2024-08-01 17:38:49,650 - neural_networks.dlmodel.dlmodel - INFO - Epoch 50, Loss: 0.004056867598561168, RMSE: 0.06369354440256224
+2024-08-01 17:38:55,854 - neural_networks.dlmodel.dlmodel - INFO - Epoch 51, Loss: 0.003983138750518465, RMSE: 0.0631121125499572
+2024-08-01 17:39:02,246 - neural_networks.dlmodel.dlmodel - INFO - Epoch 52, Loss: 0.003997410263282945, RMSE: 0.0632250762220414
+2024-08-01 17:39:09,050 - neural_networks.dlmodel.dlmodel - INFO - Epoch 53, Loss: 0.003995102511347524, RMSE: 0.06320682329739032
+2024-08-01 17:39:15,621 - neural_networks.dlmodel.dlmodel - INFO - Epoch 54, Loss: 0.004018668988190741, RMSE: 0.0633929727035319
+2024-08-01 17:39:22,106 - neural_networks.dlmodel.dlmodel - INFO - Epoch 55, Loss: 0.004019751133882906, RMSE: 0.06340150734708841
+2024-08-01 17:39:28,310 - neural_networks.dlmodel.dlmodel - INFO - Epoch 56, Loss: 0.004005413490747675, RMSE: 0.06328833613508635
+2024-08-01 17:39:34,195 - neural_networks.dlmodel.dlmodel - INFO - Epoch 57, Loss: 0.003984372448690625, RMSE: 0.06312188565537809
+2024-08-01 17:39:40,496 - neural_networks.dlmodel.dlmodel - INFO - Epoch 58, Loss: 0.004029424982557199, RMSE: 0.06347775187069245
+2024-08-01 17:39:46,438 - neural_networks.dlmodel.dlmodel - INFO - Epoch 59, Loss: 0.003983221338416582, RMSE: 0.06311276684171423
+2024-08-01 17:39:52,689 - neural_networks.dlmodel.dlmodel - INFO - Epoch 60, Loss: 0.003989174416963218, RMSE: 0.06315991147051442
+2024-08-01 17:39:58,804 - neural_networks.dlmodel.dlmodel - INFO - Epoch 61, Loss: 0.004012792044254809, RMSE: 0.06334660246812618
+2024-08-01 17:40:05,141 - neural_networks.dlmodel.dlmodel - INFO - Epoch 62, Loss: 0.003980364950066406, RMSE: 0.06309013353977312
+2024-08-01 17:40:11,345 - neural_networks.dlmodel.dlmodel - INFO - Epoch 63, Loss: 0.00400431139607959, RMSE: 0.06327962860257312
+2024-08-01 17:40:17,404 - neural_networks.dlmodel.dlmodel - INFO - Epoch 64, Loss: 0.004007761862244911, RMSE: 0.06330688637300773
+2024-08-01 17:40:23,587 - neural_networks.dlmodel.dlmodel - INFO - Epoch 65, Loss: 0.003954597149999402, RMSE: 0.06288558777652795
+2024-08-01 17:40:29,796 - neural_networks.dlmodel.dlmodel - INFO - Epoch 66, Loss: 0.003990653878219049, RMSE: 0.06317162241243333
+2024-08-01 17:40:35,886 - neural_networks.dlmodel.dlmodel - INFO - Epoch 67, Loss: 0.004022216064767843, RMSE: 0.06342094342382368
+2024-08-01 17:40:41,910 - neural_networks.dlmodel.dlmodel - INFO - Epoch 68, Loss: 0.003960789443753128, RMSE: 0.06293480311999973
+2024-08-01 17:40:47,871 - neural_networks.dlmodel.dlmodel - INFO - Epoch 69, Loss: 0.004020977826718828, RMSE: 0.06341118061287637
+2024-08-01 17:40:53,813 - neural_networks.dlmodel.dlmodel - INFO - Epoch 70, Loss: 0.003952357118355718, RMSE: 0.06286777487994719
+2024-08-01 17:40:59,735 - neural_networks.dlmodel.dlmodel - INFO - Epoch 71, Loss: 0.003972530755493793, RMSE: 0.06302801563982316
+2024-08-01 17:41:05,800 - neural_networks.dlmodel.dlmodel - INFO - Epoch 72, Loss: 0.0039925761369980625, RMSE: 0.06318683515573527
+2024-08-01 17:41:12,118 - neural_networks.dlmodel.dlmodel - INFO - Epoch 73, Loss: 0.003973147074605836, RMSE: 0.06303290469751363
+2024-08-01 17:41:18,665 - neural_networks.dlmodel.dlmodel - INFO - Epoch 74, Loss: 0.0040136269903144105, RMSE: 0.0633531924240161
+2024-08-01 17:41:24,831 - neural_networks.dlmodel.dlmodel - INFO - Epoch 75, Loss: 0.00397744692275858, RMSE: 0.06306700343887112
+2024-08-01 17:41:30,984 - neural_networks.dlmodel.dlmodel - INFO - Epoch 76, Loss: 0.003957586749870615, RMSE: 0.06290935343707336
+2024-08-01 17:41:37,028 - neural_networks.dlmodel.dlmodel - INFO - Epoch 77, Loss: 0.003987310059236475, RMSE: 0.06314515071829724
+2024-08-01 17:41:43,153 - neural_networks.dlmodel.dlmodel - INFO - Epoch 78, Loss: 0.004007427619121373, RMSE: 0.06330424645409953
+2024-08-01 17:41:49,383 - neural_networks.dlmodel.dlmodel - INFO - Epoch 79, Loss: 0.003951083970715748, RMSE: 0.06285764846632229
+2024-08-01 17:41:55,407 - neural_networks.dlmodel.dlmodel - INFO - Epoch 80, Loss: 0.004016867599150703, RMSE: 0.06337876299795306
+2024-08-01 17:42:01,530 - neural_networks.dlmodel.dlmodel - INFO - Epoch 81, Loss: 0.003945074147362668, RMSE: 0.06280982524543965
+2024-08-01 17:42:07,992 - neural_networks.dlmodel.dlmodel - INFO - Epoch 82, Loss: 0.003958806393008015, RMSE: 0.06291904634534773
+2024-08-01 17:42:14,199 - neural_networks.dlmodel.dlmodel - INFO - Epoch 83, Loss: 0.003993122574442799, RMSE: 0.06319115898955169
+2024-08-01 17:42:20,230 - neural_networks.dlmodel.dlmodel - INFO - Epoch 84, Loss: 0.003959514481985518, RMSE: 0.06292467307809806
+2024-08-01 17:42:26,377 - neural_networks.dlmodel.dlmodel - INFO - Epoch 85, Loss: 0.004003066677563582, RMSE: 0.0632697927731993
+2024-08-01 17:42:32,640 - neural_networks.dlmodel.dlmodel - INFO - Epoch 86, Loss: 0.0039389942110513885, RMSE: 0.06276140701937288
+2024-08-01 17:42:38,707 - neural_networks.dlmodel.dlmodel - INFO - Epoch 87, Loss: 0.003976374769276572, RMSE: 0.063058502751624
+2024-08-01 17:42:44,793 - neural_networks.dlmodel.dlmodel - INFO - Epoch 88, Loss: 0.003963813510819373, RMSE: 0.06295882393135512
+2024-08-01 17:42:50,861 - neural_networks.dlmodel.dlmodel - INFO - Epoch 89, Loss: 0.0039775311121629285, RMSE: 0.0630676708953401
+2024-08-01 17:42:56,820 - neural_networks.dlmodel.dlmodel - INFO - Epoch 90, Loss: 0.003948145061183359, RMSE: 0.06283426661610175
+2024-08-01 17:43:02,958 - neural_networks.dlmodel.dlmodel - INFO - Epoch 91, Loss: 0.003968053296256528, RMSE: 0.06299248603013322
+2024-08-01 17:43:09,285 - neural_networks.dlmodel.dlmodel - INFO - Epoch 92, Loss: 0.003957599812176496, RMSE: 0.06290945725545959
+2024-08-01 17:43:15,425 - neural_networks.dlmodel.dlmodel - INFO - Epoch 93, Loss: 0.003964240971147115, RMSE: 0.0629622186008968
+2024-08-01 17:43:21,750 - neural_networks.dlmodel.dlmodel - INFO - Epoch 94, Loss: 0.003974976248685407, RMSE: 0.06304741270413408
+2024-08-01 17:43:27,806 - neural_networks.dlmodel.dlmodel - INFO - Epoch 95, Loss: 0.0039269912633559615, RMSE: 0.06266571042728201
+2024-08-01 17:43:33,914 - neural_networks.dlmodel.dlmodel - INFO - Epoch 96, Loss: 0.003974243725718581, RMSE: 0.06304160313410963
+2024-08-01 17:43:40,066 - neural_networks.dlmodel.dlmodel - INFO - Epoch 97, Loss: 0.003948475232047338, RMSE: 0.06283689387650648
+2024-08-01 17:43:46,194 - neural_networks.dlmodel.dlmodel - INFO - Epoch 98, Loss: 0.0039781011445214915, RMSE: 0.06307218994550207
+2024-08-01 17:43:52,488 - neural_networks.dlmodel.dlmodel - INFO - Epoch 99, Loss: 0.0039427491117163425, RMSE: 0.06279131398303704
+2024-08-01 17:43:58,569 - neural_networks.dlmodel.dlmodel - INFO - Epoch 100, Loss: 0.003966831202652176, RMSE: 0.06298278497059474
+2024-08-01 17:44:02,170 - model_training_pipeline.data.trainer - INFO - Train RMSE: 0.06270283500716652
+2024-08-01 17:44:03,063 - model_training_pipeline.data.trainer - INFO - Test RMSE: 0.053828325934138714
+2024-08-01 17:44:03,069 - model_training_pipeline.setup.train_pipeline - INFO - Uploading model, scaler, and PCA to Google Drive folder 1uAi36tu9xE7wg4Nyf1opYSh6o405Y5a9...
+2024-08-01 17:44:06,246 - cloud_storage.uploader - INFO - File trained_model.pkl uploaded successfully to folder ID 1uAi36tu9xE7wg4Nyf1opYSh6o405Y5a9.
+2024-08-01 17:44:08,104 - cloud_storage.uploader - INFO - File scaler.pkl uploaded successfully to folder ID 1uAi36tu9xE7wg4Nyf1opYSh6o405Y5a9.
+2024-08-01 17:44:09,820 - cloud_storage.uploader - INFO - File pca.pkl uploaded successfully to folder ID 1uAi36tu9xE7wg4Nyf1opYSh6o405Y5a9.
+2024-08-01 17:44:09,820 - model_training_pipeline.setup.train_pipeline - INFO - Model, scaler, and PCA successfully uploaded to Google Drive.
+2024-08-01 17:44:09,821 - services.train_service.services - INFO - Training completed
+2024-08-01 17:44:26,052 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 17:44:26,053 - services.prediction_services.services - INFO - Initialized PredictorService
+2024-08-01 17:44:26,916 - cloud_storage.uploader - INFO - Found file: last.csv (ID: 1tm2gQ11ci1F3Yo0_l2RyYaQPkNVY0q99)
+2024-08-01 17:44:37,843 - cloud_storage.uploader - INFO - Download 13%.
+2024-08-01 17:44:48,713 - cloud_storage.uploader - INFO - Download 26%.
+2024-08-01 17:44:59,224 - cloud_storage.uploader - INFO - Download 40%.
+2024-08-01 17:45:09,873 - cloud_storage.uploader - INFO - Download 53%.
+2024-08-01 17:45:20,560 - cloud_storage.uploader - INFO - Download 67%.
+2024-08-01 17:45:30,446 - cloud_storage.uploader - INFO - Download 80%.
+2024-08-01 17:45:40,609 - cloud_storage.uploader - INFO - Download 94%.
+2024-08-01 17:45:47,195 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 17:45:47,196 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1tm2gQ11ci1F3Yo0_l2RyYaQPkNVY0q99.
+2024-08-01 17:45:58,618 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 17:45:58,618 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1qvy1igxaewCdQb_9D_cB3HCHhfe2V38U.
+2024-08-01 17:45:58,680 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-01 17:46:01,322 - cloud_storage.uploader - INFO - Found file: trained_model.pkl (ID: 1P4jegkvbgrwcxcI0o4evQkLMg92bZcVw)
+2024-08-01 17:46:08,714 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 17:46:08,714 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1P4jegkvbgrwcxcI0o4evQkLMg92bZcVw.
+2024-08-01 17:46:09,203 - cloud_storage.uploader - INFO - Found file: scaler.pkl (ID: 1BCrnHoRwVR852mz0yYs46El6EVohfp9o)
+2024-08-01 17:46:13,623 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 17:46:13,623 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1BCrnHoRwVR852mz0yYs46El6EVohfp9o.
+2024-08-01 17:46:14,115 - cloud_storage.uploader - INFO - Found file: pca.pkl (ID: 1iNYVkMDcUQJQyiSJJzM7TfHX3X3blEL9)
+2024-08-01 17:46:18,624 - cloud_storage.uploader - INFO - Download 100%.
+2024-08-01 17:46:18,624 - cloud_storage.uploader - INFO - File downloaded successfully to folder ID 1iNYVkMDcUQJQyiSJJzM7TfHX3X3blEL9.
+2024-08-01 17:46:18,633 - model_predictions.setup.predict - INFO - Model, scaler, and PCA successfully loaded.
+2024-08-01 17:46:18,633 - services.prediction_services.services - INFO - PredictorService run completed
+2024-08-01 17:46:18,645 - model_predictions.setup.test_predictor - INFO - shop_id: 101, item_id: 107172, Predicted amount: [0.18019568]
+2024-08-01 17:46:18,645 - services.prediction_services.services - INFO - Prediction made: 0.18019567738533415
+2024-08-02 09:26:11,349 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-02 09:26:11,351 - services.data_services.services - INFO - Preparing data...
+2024-08-02 09:26:21,230 - storage.uploader - INFO - Download 88%.
+2024-08-02 09:26:26,300 - storage.uploader - INFO - Download 100%.
+2024-08-02 09:26:26,300 - storage.uploader - INFO - File downloaded successfully to folder ID 1qAekESV0eDNcQ0aEMJF95i-W0ysfLXSS.
+2024-08-02 09:26:30,623 - storage.uploader - INFO - Download 100%.
+2024-08-02 09:26:30,623 - storage.uploader - INFO - File downloaded successfully to folder ID 1AUQC88xAb1rkc2zb151tEWf-k57lypMD.
+2024-08-02 09:26:35,051 - storage.uploader - INFO - Download 100%.
+2024-08-02 09:26:35,051 - storage.uploader - INFO - File downloaded successfully to folder ID 1Sj90Oqc7KQesWTzZuo08Ku8AlCagshF1.
+2024-08-02 09:26:39,877 - storage.uploader - INFO - Download 100%.
+2024-08-02 09:26:39,877 - storage.uploader - INFO - File downloaded successfully to folder ID 1GXj9YQZAHx-zdQSEz_L0tyOfTLdTuVOJ.
+2024-08-02 09:26:42,103 - services.data_services.services - INFO - Data prepared.
+2024-08-02 09:26:42,103 - services.data_services.services - INFO - Engineering features...
+2024-08-02 09:26:46,819 - services.data_services.services - INFO - Features engineered.
+2024-08-02 09:26:46,819 - services.data_services.services - INFO - Saving and uploading data to Google Drive...
+2024-08-02 09:27:27,812 - storage.uploader - INFO - Upload 13% complete.
+2024-08-02 09:27:32,677 - storage.uploader - INFO - Upload 26% complete.
+2024-08-02 09:27:37,095 - storage.uploader - INFO - Upload 40% complete.
+2024-08-02 09:27:41,665 - storage.uploader - INFO - Upload 53% complete.
+2024-08-02 09:27:45,745 - storage.uploader - INFO - Upload 67% complete.
+2024-08-02 09:27:50,493 - storage.uploader - INFO - Upload 80% complete.
+2024-08-02 09:27:54,286 - storage.uploader - INFO - Upload 94% complete.
+2024-08-02 09:27:57,039 - storage.uploader - INFO - File last.csv uploaded successfully to folder ID 1sazosSHf7leJqmLdb3Urla5Fb2bhFH5l.
+2024-08-02 09:27:57,104 - services.data_services.services - INFO - Data saved and uploaded.
+2024-08-02 09:31:36,218 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-02 09:31:36,220 - services.train_service.services - INFO - Training started
+2024-08-02 09:31:37,105 - storage.uploader - INFO - Found file: last.csv (ID: 19SJOj8MOUbs8GrG7AxcvnH8DqoeCwkBx)
+2024-08-02 09:31:49,271 - storage.uploader - INFO - Download 13%.
+2024-08-02 09:31:59,917 - storage.uploader - INFO - Download 26%.
+2024-08-02 09:32:10,264 - storage.uploader - INFO - Download 40%.
+2024-08-02 09:32:19,995 - storage.uploader - INFO - Download 53%.
+2024-08-02 09:32:29,810 - storage.uploader - INFO - Download 67%.
+2024-08-02 09:32:39,272 - storage.uploader - INFO - Download 80%.
+2024-08-02 09:32:48,825 - storage.uploader - INFO - Download 94%.
+2024-08-02 09:32:54,984 - storage.uploader - INFO - Download 100%.
+2024-08-02 09:32:54,984 - storage.uploader - INFO - File downloaded successfully to folder ID 19SJOj8MOUbs8GrG7AxcvnH8DqoeCwkBx.
+2024-08-02 09:33:21,327 - networks.dlmodel.dlmodel - INFO - Epoch 1, Loss: 0.19980196421927165, RMSE: 0.4469921299299034
+2024-08-02 09:33:26,845 - networks.dlmodel.dlmodel - INFO - Epoch 2, Loss: 0.00855757943438593, RMSE: 0.09250718585269974
+2024-08-02 09:33:32,442 - networks.dlmodel.dlmodel - INFO - Epoch 3, Loss: 0.008814659447716188, RMSE: 0.0938864178021304
+2024-08-02 09:33:38,361 - networks.dlmodel.dlmodel - INFO - Epoch 4, Loss: 0.008796429334017178, RMSE: 0.09378928155187659
+2024-08-02 09:33:42,936 - networks.dlmodel.dlmodel - INFO - Epoch 5, Loss: 0.008817431817620958, RMSE: 0.09390118113006331
+2024-08-02 09:33:47,290 - networks.dlmodel.dlmodel - INFO - Epoch 6, Loss: 0.008805413379226556, RMSE: 0.09383716416871599
+2024-08-02 09:33:51,627 - networks.dlmodel.dlmodel - INFO - Epoch 7, Loss: 0.008953408320600747, RMSE: 0.0946224514615889
+2024-08-02 09:33:55,909 - networks.dlmodel.dlmodel - INFO - Epoch 8, Loss: 0.008805235758553838, RMSE: 0.0938362177336333
+2024-08-02 09:34:00,073 - networks.dlmodel.dlmodel - INFO - Epoch 9, Loss: 0.008851791180772128, RMSE: 0.0940839581478805
+2024-08-02 09:34:04,283 - networks.dlmodel.dlmodel - INFO - Epoch 10, Loss: 0.008868070736559009, RMSE: 0.0941704345140183
+2024-08-02 09:34:08,662 - networks.dlmodel.dlmodel - INFO - Epoch 11, Loss: 0.008855448776209855, RMSE: 0.0941033940738051
+2024-08-02 09:34:12,866 - networks.dlmodel.dlmodel - INFO - Epoch 12, Loss: 0.008832982994221845, RMSE: 0.09398395072682274
+2024-08-02 09:34:17,121 - networks.dlmodel.dlmodel - INFO - Epoch 13, Loss: 0.008834507965139933, RMSE: 0.09399206330930253
+2024-08-02 09:34:21,348 - networks.dlmodel.dlmodel - INFO - Epoch 14, Loss: 0.008891352658840264, RMSE: 0.09429396936623394
+2024-08-02 09:34:25,582 - networks.dlmodel.dlmodel - INFO - Epoch 15, Loss: 0.008854094087587434, RMSE: 0.0940961959251671
+2024-08-02 09:34:29,835 - networks.dlmodel.dlmodel - INFO - Epoch 16, Loss: 0.008885517019853151, RMSE: 0.09426302042610958
+2024-08-02 09:34:34,070 - networks.dlmodel.dlmodel - INFO - Epoch 17, Loss: 0.008890876479207837, RMSE: 0.09429144435847739
+2024-08-02 09:34:38,464 - networks.dlmodel.dlmodel - INFO - Epoch 18, Loss: 0.008889674368437812, RMSE: 0.09428506970055127
+2024-08-02 09:34:42,697 - networks.dlmodel.dlmodel - INFO - Epoch 19, Loss: 0.008877856796050469, RMSE: 0.09422237948624769
+2024-08-02 09:34:46,942 - networks.dlmodel.dlmodel - INFO - Epoch 20, Loss: 0.008892956545288136, RMSE: 0.09430247369654805
+2024-08-02 09:34:51,140 - networks.dlmodel.dlmodel - INFO - Epoch 21, Loss: 0.00886806338541476, RMSE: 0.09417039548294762
+2024-08-02 09:34:56,160 - networks.dlmodel.dlmodel - INFO - Epoch 22, Loss: 0.008937573437627975, RMSE: 0.09453874040639623
+2024-08-02 09:35:01,472 - networks.dlmodel.dlmodel - INFO - Epoch 23, Loss: 0.008907564064374492, RMSE: 0.09437989226723291
+2024-08-02 09:35:05,851 - networks.dlmodel.dlmodel - INFO - Epoch 24, Loss: 0.00886955208331827, RMSE: 0.09417829942889322
+2024-08-02 09:35:10,260 - networks.dlmodel.dlmodel - INFO - Epoch 25, Loss: 0.01066648960121706, RMSE: 0.10327869868088511
+2024-08-02 09:35:14,579 - networks.dlmodel.dlmodel - INFO - Epoch 26, Loss: 0.01123391117856387, RMSE: 0.1059901466107292
+2024-08-02 09:35:18,966 - networks.dlmodel.dlmodel - INFO - Epoch 27, Loss: 0.00891836330208604, RMSE: 0.0944370864760558
+2024-08-02 09:35:23,502 - networks.dlmodel.dlmodel - INFO - Epoch 28, Loss: 0.008886849168854306, RMSE: 0.09427008628856932
+2024-08-02 09:35:27,839 - networks.dlmodel.dlmodel - INFO - Epoch 29, Loss: 0.008859585951983672, RMSE: 0.09412537358217322
+2024-08-02 09:35:32,171 - networks.dlmodel.dlmodel - INFO - Epoch 30, Loss: 0.008873266794270545, RMSE: 0.0941980190570404
+2024-08-02 09:35:36,520 - networks.dlmodel.dlmodel - INFO - Epoch 31, Loss: 0.00884920265989727, RMSE: 0.09407020070084506
+2024-08-02 09:35:40,980 - networks.dlmodel.dlmodel - INFO - Epoch 32, Loss: 0.008861774923224168, RMSE: 0.09413700081914746
+2024-08-02 09:35:45,404 - networks.dlmodel.dlmodel - INFO - Epoch 33, Loss: 0.008841691995085357, RMSE: 0.09403027169526501
+2024-08-02 09:35:49,775 - networks.dlmodel.dlmodel - INFO - Epoch 34, Loss: 0.009045846523699129, RMSE: 0.09510965526012136
+2024-08-02 09:35:54,153 - networks.dlmodel.dlmodel - INFO - Epoch 35, Loss: 0.008850904277448477, RMSE: 0.09407924466878163
+2024-08-02 09:35:58,478 - networks.dlmodel.dlmodel - INFO - Epoch 36, Loss: 0.008841311497437618, RMSE: 0.0940282484014119
+2024-08-02 09:36:02,834 - networks.dlmodel.dlmodel - INFO - Epoch 37, Loss: 0.008865925426614836, RMSE: 0.0941590432545639
+2024-08-02 09:36:07,206 - networks.dlmodel.dlmodel - INFO - Epoch 38, Loss: 0.008846787674487383, RMSE: 0.09405736374408642
+2024-08-02 09:36:11,515 - networks.dlmodel.dlmodel - INFO - Epoch 39, Loss: 0.008869517974091511, RMSE: 0.09417811834015113
+2024-08-02 09:36:15,885 - networks.dlmodel.dlmodel - INFO - Epoch 40, Loss: 0.008819723332669902, RMSE: 0.09391338207449405
+2024-08-02 09:36:20,264 - networks.dlmodel.dlmodel - INFO - Epoch 41, Loss: 0.008837383725661271, RMSE: 0.09400735995474647
+2024-08-02 09:36:24,586 - networks.dlmodel.dlmodel - INFO - Epoch 42, Loss: 0.008855842544538974, RMSE: 0.09410548626163606
+2024-08-02 09:36:28,894 - networks.dlmodel.dlmodel - INFO - Epoch 43, Loss: 0.008881204421232577, RMSE: 0.09424014230269698
+2024-08-02 09:36:33,257 - networks.dlmodel.dlmodel - INFO - Epoch 44, Loss: 0.00881117800334937, RMSE: 0.093867875246803
+2024-08-02 09:36:37,581 - networks.dlmodel.dlmodel - INFO - Epoch 45, Loss: 0.008832246205928462, RMSE: 0.09398003088916529
+2024-08-02 09:36:42,865 - networks.dlmodel.dlmodel - INFO - Epoch 46, Loss: 0.008854622793726863, RMSE: 0.0940990052749064
+2024-08-02 09:36:47,245 - networks.dlmodel.dlmodel - INFO - Epoch 47, Loss: 0.008814533588558274, RMSE: 0.09388574752622612
+2024-08-02 09:36:51,609 - networks.dlmodel.dlmodel - INFO - Epoch 48, Loss: 0.00885418160403137, RMSE: 0.09409666096111684
+2024-08-02 09:36:55,983 - networks.dlmodel.dlmodel - INFO - Epoch 49, Loss: 0.008824057770693878, RMSE: 0.0939364560258363
+2024-08-02 09:37:00,354 - networks.dlmodel.dlmodel - INFO - Epoch 50, Loss: 0.008817723168251971, RMSE: 0.09390273248554576
+2024-08-02 09:37:04,728 - networks.dlmodel.dlmodel - INFO - Epoch 51, Loss: 0.008822764388908432, RMSE: 0.09392957142938763
+2024-08-02 09:37:09,298 - networks.dlmodel.dlmodel - INFO - Epoch 52, Loss: 0.008860072351798377, RMSE: 0.09412795733361251
+2024-08-02 09:37:13,716 - networks.dlmodel.dlmodel - INFO - Epoch 53, Loss: 0.008817947322802406, RMSE: 0.09390392602443418
+2024-08-02 09:37:18,123 - networks.dlmodel.dlmodel - INFO - Epoch 54, Loss: 0.008798562886413595, RMSE: 0.09380065504256138
+2024-08-02 09:37:22,560 - networks.dlmodel.dlmodel - INFO - Epoch 55, Loss: 0.008871132745430417, RMSE: 0.09418669091453642
+2024-08-02 09:37:26,979 - networks.dlmodel.dlmodel - INFO - Epoch 56, Loss: 0.008836728559077934, RMSE: 0.09400387523436432
+2024-08-02 09:37:31,378 - networks.dlmodel.dlmodel - INFO - Epoch 57, Loss: 0.008842273561628498, RMSE: 0.09403336408758595
+2024-08-02 09:37:35,780 - networks.dlmodel.dlmodel - INFO - Epoch 58, Loss: 0.008795333973180641, RMSE: 0.09378344189237586
+2024-08-02 09:37:40,214 - networks.dlmodel.dlmodel - INFO - Epoch 59, Loss: 0.008830955954437999, RMSE: 0.09397316614032965
+2024-08-02 09:37:44,622 - networks.dlmodel.dlmodel - INFO - Epoch 60, Loss: 0.008831746658875225, RMSE: 0.09397737312180643
+2024-08-02 09:37:49,681 - networks.dlmodel.dlmodel - INFO - Epoch 61, Loss: 0.008826148629273362, RMSE: 0.0939475844781193
+2024-08-02 09:37:55,111 - networks.dlmodel.dlmodel - INFO - Epoch 62, Loss: 0.008802405632059113, RMSE: 0.09382113638226257
+2024-08-02 09:38:00,004 - networks.dlmodel.dlmodel - INFO - Epoch 63, Loss: 0.008836759676657166, RMSE: 0.09400404074643369
+2024-08-02 09:38:04,772 - networks.dlmodel.dlmodel - INFO - Epoch 64, Loss: 0.008791493995615709, RMSE: 0.09376296707984293
+2024-08-02 09:38:09,895 - networks.dlmodel.dlmodel - INFO - Epoch 65, Loss: 0.008825819555095444, RMSE: 0.09394583309064561
+2024-08-02 09:38:15,852 - networks.dlmodel.dlmodel - INFO - Epoch 66, Loss: 0.008810876343203653, RMSE: 0.09386626839926926
+2024-08-02 09:38:22,026 - networks.dlmodel.dlmodel - INFO - Epoch 67, Loss: 0.008832421808157832, RMSE: 0.0939809651374034
+2024-08-02 09:38:28,068 - networks.dlmodel.dlmodel - INFO - Epoch 68, Loss: 0.008809150344689352, RMSE: 0.09385707402582584
+2024-08-02 09:38:32,857 - networks.dlmodel.dlmodel - INFO - Epoch 69, Loss: 0.008836267254507328, RMSE: 0.0940014215557793
+2024-08-02 09:38:37,527 - networks.dlmodel.dlmodel - INFO - Epoch 70, Loss: 0.008783958016607432, RMSE: 0.09372277213467084
+2024-08-02 09:38:42,152 - networks.dlmodel.dlmodel - INFO - Epoch 71, Loss: 0.008809007572638038, RMSE: 0.09385631344048219
+2024-08-02 09:38:46,872 - networks.dlmodel.dlmodel - INFO - Epoch 72, Loss: 0.008853239521459732, RMSE: 0.09409165489808186
+2024-08-02 09:38:51,418 - networks.dlmodel.dlmodel - INFO - Epoch 73, Loss: 0.008785366194485202, RMSE: 0.09373028429747347
+2024-08-02 09:38:55,901 - networks.dlmodel.dlmodel - INFO - Epoch 74, Loss: 0.008844131451929596, RMSE: 0.09404324245755033
+2024-08-02 09:39:00,471 - networks.dlmodel.dlmodel - INFO - Epoch 75, Loss: 0.008826184529133392, RMSE: 0.09394777554116644
+2024-08-02 09:39:05,016 - networks.dlmodel.dlmodel - INFO - Epoch 76, Loss: 0.008800405807769805, RMSE: 0.0938104781342138
+2024-08-02 09:39:09,729 - networks.dlmodel.dlmodel - INFO - Epoch 77, Loss: 0.008817915810485839, RMSE: 0.09390375823408688
+2024-08-02 09:39:14,368 - networks.dlmodel.dlmodel - INFO - Epoch 78, Loss: 0.008826053329350303, RMSE: 0.09394707727944655
+2024-08-02 09:39:20,090 - networks.dlmodel.dlmodel - INFO - Epoch 79, Loss: 0.00879284237408812, RMSE: 0.09377015716147713
+2024-08-02 09:39:25,090 - networks.dlmodel.dlmodel - INFO - Epoch 80, Loss: 0.008799538854835648, RMSE: 0.09380585725228274
+2024-08-02 09:39:29,746 - networks.dlmodel.dlmodel - INFO - Epoch 81, Loss: 0.008809813449286176, RMSE: 0.09386060648262494
+2024-08-02 09:39:34,497 - networks.dlmodel.dlmodel - INFO - Epoch 82, Loss: 0.008818352618802518, RMSE: 0.09390608403507474
+2024-08-02 09:39:39,387 - networks.dlmodel.dlmodel - INFO - Epoch 83, Loss: 0.00878975679060091, RMSE: 0.09375370281008058
+2024-08-02 09:39:43,891 - networks.dlmodel.dlmodel - INFO - Epoch 84, Loss: 0.008801901477544087, RMSE: 0.09381844955841089
+2024-08-02 09:39:48,371 - networks.dlmodel.dlmodel - INFO - Epoch 85, Loss: 0.008839766051613083, RMSE: 0.09402003005537216
+2024-08-02 09:39:52,847 - networks.dlmodel.dlmodel - INFO - Epoch 86, Loss: 0.00879768436933154, RMSE: 0.09379597203148725
+2024-08-02 09:39:57,296 - networks.dlmodel.dlmodel - INFO - Epoch 87, Loss: 0.008791237973778886, RMSE: 0.09376160180894355
+2024-08-02 09:40:01,734 - networks.dlmodel.dlmodel - INFO - Epoch 88, Loss: 0.008855248348144626, RMSE: 0.0941023291324111
+2024-08-02 09:40:06,206 - networks.dlmodel.dlmodel - INFO - Epoch 89, Loss: 0.008767525978144022, RMSE: 0.09363506810027973
+2024-08-02 09:40:10,587 - networks.dlmodel.dlmodel - INFO - Epoch 90, Loss: 0.008845553959114348, RMSE: 0.09405080520183944
+2024-08-02 09:40:15,019 - networks.dlmodel.dlmodel - INFO - Epoch 91, Loss: 0.008804857779304997, RMSE: 0.09383420367491269
+2024-08-02 09:40:19,448 - networks.dlmodel.dlmodel - INFO - Epoch 92, Loss: 0.008816392380405748, RMSE: 0.09389564622710549
+2024-08-02 09:40:23,861 - networks.dlmodel.dlmodel - INFO - Epoch 93, Loss: 0.008803790978370075, RMSE: 0.09382851900339297
+2024-08-02 09:40:28,259 - networks.dlmodel.dlmodel - INFO - Epoch 94, Loss: 0.00877571480291056, RMSE: 0.09367878523396084
+2024-08-02 09:40:32,653 - networks.dlmodel.dlmodel - INFO - Epoch 95, Loss: 0.0088475232342935, RMSE: 0.09406127382878408
+2024-08-02 09:40:37,038 - networks.dlmodel.dlmodel - INFO - Epoch 96, Loss: 0.008794536603389417, RMSE: 0.09377919067356796
+2024-08-02 09:40:41,428 - networks.dlmodel.dlmodel - INFO - Epoch 97, Loss: 0.009981710445358902, RMSE: 0.09990851037503713
+2024-08-02 09:40:45,835 - networks.dlmodel.dlmodel - INFO - Epoch 98, Loss: 0.009485994896503964, RMSE: 0.09739607228478962
+2024-08-02 09:40:50,212 - networks.dlmodel.dlmodel - INFO - Epoch 99, Loss: 0.008757841810094882, RMSE: 0.09358334152024538
+2024-08-02 09:40:54,632 - networks.dlmodel.dlmodel - INFO - Epoch 100, Loss: 0.008762555632089204, RMSE: 0.09360852328762165
+2024-08-02 09:40:57,898 - training_pipeline.data.trainer - INFO - Train RMSE: 0.09389224615700792
+2024-08-02 09:40:58,696 - training_pipeline.data.trainer - INFO - Test RMSE: 0.07318481133815019
+2024-08-02 09:40:58,701 - training_pipeline.setup.train_pipeline - INFO - Uploading model, scaler, and PCA to Google Drive folder 1uAi36tu9xE7wg4Nyf1opYSh6o405Y5a9...
+2024-08-02 09:41:01,856 - storage.uploader - INFO - File trained_model.pkl uploaded successfully to folder ID 1uAi36tu9xE7wg4Nyf1opYSh6o405Y5a9.
+2024-08-02 09:41:03,526 - storage.uploader - INFO - File scaler.pkl uploaded successfully to folder ID 1uAi36tu9xE7wg4Nyf1opYSh6o405Y5a9.
+2024-08-02 09:41:05,131 - storage.uploader - INFO - File pca.pkl uploaded successfully to folder ID 1uAi36tu9xE7wg4Nyf1opYSh6o405Y5a9.
+2024-08-02 09:41:05,131 - training_pipeline.setup.train_pipeline - INFO - Model, scaler, and PCA successfully uploaded to Google Drive.
+2024-08-02 09:41:05,131 - services.train_service.services - INFO - Training completed
+2024-08-02 09:41:26,219 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-02 09:41:26,221 - services.prediction_services.services - INFO - Initialized PredictorService
+2024-08-02 09:41:26,949 - storage.uploader - INFO - Found file: last.csv (ID: 19SJOj8MOUbs8GrG7AxcvnH8DqoeCwkBx)
+2024-08-02 09:41:35,954 - storage.uploader - INFO - Download 13%.
+2024-08-02 09:41:45,731 - storage.uploader - INFO - Download 26%.
+2024-08-02 09:41:55,108 - storage.uploader - INFO - Download 40%.
+2024-08-02 09:42:06,488 - storage.uploader - INFO - Download 53%.
+2024-08-02 09:42:17,078 - storage.uploader - INFO - Download 67%.
+2024-08-02 09:42:27,937 - storage.uploader - INFO - Download 80%.
+2024-08-02 09:42:37,023 - storage.uploader - INFO - Download 94%.
+2024-08-02 09:42:42,892 - storage.uploader - INFO - Download 100%.
+2024-08-02 09:42:42,892 - storage.uploader - INFO - File downloaded successfully to folder ID 19SJOj8MOUbs8GrG7AxcvnH8DqoeCwkBx.
+2024-08-02 09:42:54,007 - storage.uploader - INFO - Download 100%.
+2024-08-02 09:42:54,007 - storage.uploader - INFO - File downloaded successfully to folder ID 1qvy1igxaewCdQb_9D_cB3HCHhfe2V38U.
+2024-08-02 09:42:54,070 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-02 09:42:54,810 - storage.uploader - INFO - Found file: trained_model.pkl (ID: 13-S1EYKkI3vYIJv6sDtuFYTKUjeKmGHk)
+2024-08-02 09:43:05,496 - storage.uploader - INFO - Download 100%.
+2024-08-02 09:43:05,497 - storage.uploader - INFO - File downloaded successfully to folder ID 13-S1EYKkI3vYIJv6sDtuFYTKUjeKmGHk.
+2024-08-02 09:43:05,970 - storage.uploader - INFO - Found file: scaler.pkl (ID: 1CtdZa5F8sWba_oWfdvgFCfuGbMN7HTsP)
+2024-08-02 09:43:10,231 - storage.uploader - INFO - Download 100%.
+2024-08-02 09:43:10,232 - storage.uploader - INFO - File downloaded successfully to folder ID 1CtdZa5F8sWba_oWfdvgFCfuGbMN7HTsP.
+2024-08-02 09:43:10,684 - storage.uploader - INFO - Found file: pca.pkl (ID: 1tsG8rApyodmv2js1qfxSuiQGQXzJooaT)
+2024-08-02 09:43:15,389 - storage.uploader - INFO - Download 100%.
+2024-08-02 09:43:15,389 - storage.uploader - INFO - File downloaded successfully to folder ID 1tsG8rApyodmv2js1qfxSuiQGQXzJooaT.
+2024-08-02 09:43:15,401 - predictions.setup.predict - INFO - Model, scaler, and PCA successfully loaded.
+2024-08-02 09:43:15,401 - services.prediction_services.services - INFO - PredictorService run completed
+2024-08-02 09:43:15,409 - predictions.setup.test_predictor - INFO - shop_id: 101, item_id: 107172, Predicted amount: [0.2387199]
+2024-08-02 09:43:15,409 - services.prediction_services.services - INFO - Prediction made: 0.23871990083541994
+2024-08-05 15:02:28,941 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-08-05 15:02:28,943 - services.train_service.services - INFO - Training started
+2024-08-05 15:02:29,849 - storage.uploader - INFO - Found file: last.csv (ID: 16yErZOUGI1FtDme5ybD53mI_XIEfc_Y2)
+2024-08-05 15:02:39,818 - storage.uploader - INFO - Download 13%.
+2024-08-05 15:02:50,121 - storage.uploader - INFO - Download 26%.
+2024-08-05 15:02:59,555 - storage.uploader - INFO - Download 40%.
+2024-08-05 15:03:09,203 - storage.uploader - INFO - Download 53%.
